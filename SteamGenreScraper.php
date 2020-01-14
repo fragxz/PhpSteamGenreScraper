@@ -4,7 +4,7 @@
  * === Example Usage ===
  * $arrayWithGames = ['The Witcher 3: Wild Hunt - Blood and Wine'];
  * $scraper = new SteamGenreScraper;
- * echo $scraper->getGenreByGameName('The Witcher 3: Wild Hunt - Blood and Wine');
+ * echo $scraper->getGenreByGameName($arrayWithGames[0]);
  */
 
 
