@@ -20,3 +20,7 @@ RPG, Open World, Story Rich, Atmospheric
 ```
 
 It scrapes the genres from the Store Page. So the genres you get back may change, depending how many users voted for a certain genre.
+
+## Known Issues
+
+The scraper can't get genres for games that needs an age verification (18+). Workarounds are possible, but not directly supported by this script.
