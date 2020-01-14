@@ -1,6 +1,8 @@
 # PhpSteamGenreScraper
 A PHP based script to scrape Genres for a specific Steam Game
 
+
+
 ## Requirements:
 PHP 7.0+
 
