@@ -6,8 +6,20 @@ A PHP based script to scrape Genres for a specific Steam Game
 ## Requirements:
 PHP 7.0+
 
+## Usage:
+```
+ $arrayWithGames = ['The Witcher 3: Wild Hunt - Blood and Wine'];
+ $scraper = new SteamGenreScraper;
+ echo $scraper->getGenreByGameName('The Witcher 3: Wild Hunt - Blood and Wine');
+```
 
-## Example:
+Result:
+```
+RPG, Open World, Story Rich, Atmospheric
+```
+
+
+## Explanation:
 
 You have an Array with Games and you want to know the genre for these Games. Steam doesn't have an API for it, so use this scraper!
 
@@ -16,7 +28,7 @@ Let's say we want to know the Genres for the game "The Witcher 3: Wild Hunt - Bl
 $arrayWithGames = ['The Witcher 3: Wild Hunt - Blood and Wine'];
 ```
 
-If you use the script for example, you'll get the following genres:
+If you use the class for example, you'll get the following genres:
 ```
 RPG, Open World, Story Rich, Atmospheric
 ```
