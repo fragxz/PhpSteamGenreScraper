@@ -1,6 +1,9 @@
 # PhpSteamGenreScraper
 A PHP based script to scrape Genres for a specific Steam Game
 
+If you want to thank me with a coffee or show me that there is interest in this project, I would be very thankful for any support: [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/fredericreinhardt)
+
+
 ## Requirements:
 PHP 7.0+
 
